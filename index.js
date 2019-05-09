@@ -33,6 +33,15 @@
 
 function nonRepeatingCharacter (string) {
   // your code here. Enjoy the music. (please do)
+  let copy = string.toLowerCase().split('');
+
+  for (let i=0; i<string.length; i++) {
+    let letter = copy.splice(i, 1)[0];
+    if (copy.indexOf(letter) === -1) return string[i];
+    copy.splice(i, 0, letter);
+  }
+
+  return '';
   
 } 
 
