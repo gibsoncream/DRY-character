@@ -1,0 +1,23 @@
+{
+  "name": "dry-character",
+  "version": "1.0.0",
+  "description": "Nice easy fast problem for CW students",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gibsoncream/DRY-character.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gibsoncream/DRY-character/issues"
+  },
+  "homepage": "https://github.com/gibsoncream/DRY-character#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
